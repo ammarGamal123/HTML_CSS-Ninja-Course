@@ -1,3 +1,135 @@
-div {
-    background:#ff00007a;
+body , ul , li , h1 , h2 , a {
+    margin : 0;
+    padding: 0;
+    font-family: arial;
+     
 }
+header {
+    background-color: #dde025;
+    padding : 5px;
+    text-align:center;
+    position:fixed;
+    width: 100%;
+    z-index:1;
+    left :0;
+    top:0;
+}
+header h1 {
+    color:white;
+    border:8px solid white;
+    padding:6px 12px;
+    display: inline-block;
+    border-radius: 40px;
+}
+nav {
+    background-color:#F4F4F4;
+    padding : 20px;
+    position:sticky;
+    top: 70px;
+}
+nav ul {
+    white-space: nowrap ;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+nav li a {
+    text-decoration : none;
+    color : #4B4B4B;
+}
+nav li {
+    width: 25%;
+    display:inline-block;
+    font-size: 24px;
+}
+.banner {
+    position: relative;
+}
+.banner img {
+    max-width:100%;
+}
+
+.banner div {
+    
+    background-color: #EFB614;
+    color:white;
+    padding :30px;
+    position:absolute;
+    left:0;
+    top:30%;
+}
+.banner div h2 {
+    font-size:50px;
+}
+.banner div h2 span {
+    font-size:1.3em;
+}
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin:80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: #F63232;
+    font-size: 48px;
+}
+article p {
+    line-height:1.5em;
+    color:#4b4b4b;
+}
+.images {
+    text-align: center;
+    margin:80px 0;
+    white-space: nowrap;
+}
+.images li {
+    display : inline-block;
+    width:40%;
+    margin : 20px 5%;
+}
+.images li img {
+    max-width: 100%;
+}
+section.join {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color:#4B4B4B; 
+}
+.join h2 {
+    font-size: 36px;
+}
+form input {
+    margin : 20px 0;
+    padding: 10px 20px;
+    font-size:20px;
+    border-radius: 20px;
+    border: 4px solid white;
+}
+footer {
+    background-color:#F63232 ;
+    color :white;
+    padding :6px;
+    font-size: 15px;
+    text-align: center;
+}
+nav li a:hover{
+    text-decoration: underline;
+    color:#10a0a0;
+}
+.images li:hover{
+    position:relative;
+    top:-10px;   
+}
+form input:focus {
+    border:4px dashed #4b4b4b;
+    outline : none;
+}
+section h2 {
+    color:#4d4f0f;
+}
+form input:valid {
+    border: 4px solid #71d300; 
+}
+
